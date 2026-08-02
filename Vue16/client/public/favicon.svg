@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a1628"/>
+      <stop offset="1" stop-color="#0d3a2a"/>
+    </linearGradient>
+    <linearGradient id="tomato" x1="20" y1="18" x2="48" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6b45"/>
+      <stop offset="1" stop-color="#d62828"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="10" y1="14" x2="34" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00d4aa"/>
+      <stop offset="1" stop-color="#2d8a4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- leaf -->
+  <path d="M14 36c0-10 8-18 18-20-2 8-1 16 4 22-8 2-16-2-22-2z" fill="url(#leaf)"/>
+  <path d="M20 28c4 2 8 6 10 12" stroke="#0a2a18" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <!-- disease spots on leaf -->
+  <circle cx="22" cy="30" r="2.2" fill="#8b4513" opacity="0.85"/>
+  <circle cx="27" cy="35" r="1.6" fill="#a0522d" opacity="0.8"/>
+  <!-- tomato -->
+  <ellipse cx="40" cy="38" rx="12" ry="11" fill="url(#tomato)"/>
+  <ellipse cx="36" cy="33" rx="3.5" ry="2.2" fill="#fff" opacity="0.22"/>
+  <!-- calyx -->
+  <path d="M40 26c-2 2-4 3-6 3 2 1 4 2 6 2s4-1 6-2c-2 0-4-1-6-3z" fill="#2d8a3e"/>
+  <rect x="39" y="22" width="2" height="5" rx="1" fill="#3a6b2a"/>
+</svg>
